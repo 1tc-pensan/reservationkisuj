@@ -17,12 +17,12 @@ class ReservationSeeder extends Seeder
         (
             [
                 'name' => 'Alice Johnson',
-                'email' => 'alicejj@gmail.com',
+                'email' => 'alicejg@gmail.com',
                 'reservation_time' => '2025-12-02 19:01:10',
                 'guest' => 2,
                 'note' => 'Window seat, please.'
             ]
         );
-        Reservation::factory()->count(10)->create();
+        // Reservation::factory()->count(10)->create();
     }
 }
